@@ -6,16 +6,16 @@
     <include file="$(find neuronbot2_nav)/launch/neuronbot2_nav.launch">
         <arg name="namespace" value=""/>
 	    <arg name="map_name" value="$(arg map_name)" />
-        <arg name="x_pos" value="1.424464"/>
-        <arg name="y_pos" value="-0.433"/>
+        <arg name="x_pos" value="0.024"/>
+        <arg name="y_pos" value="0.007"/>
         <arg name="yaw" value=" 0.0"/>
     </include>
     <!-- <rosparam command="load" ns="" file="$(find neuronbot2_multibot)/params/multilayer_costmap.yaml" /> -->
     <include file="$(find neuronbot2_nav)/launch/neuronbot2_nav.launch">
         <arg name="namespace" value="nb2_1"/>
 	    <arg name="map_name" value="$(arg map_name)" />
-        <arg name="x_pos" value="1.424464"/>
-        <arg name="y_pos" value="-1.380"/>
+        <arg name="x_pos" value="0.034"/>
+        <arg name="y_pos" value="0.927"/>
         <arg name="yaw" value=" 0.0"/>
     </include>
     </group> 
@@ -24,16 +24,16 @@
     <include file="$(find neuronbot2_nav)/launch/neuronbot2_nav.launch">
         <arg name="namespace" value=""/>
 	    <arg name="map_name" value="$(arg map_name)" />
-        <arg name="x_pos" value="1.424464"/>
-        <arg name="y_pos" value="-0.433"/>
+        <arg name="x_pos" value="0.024"/>
+        <arg name="y_pos" value="0.007"/>
         <arg name="yaw" value=" 0.0"/>
     </include>
     <!-- <rosparam command="load" ns="" file="$(find neuronbot2_multibot)/params/multilayer_costmap.yaml" /> -->
     <include file="$(find neuronbot2_nav)/launch/neuronbot2_nav.launch">
         <arg name="namespace" value="nb2_1"/>
 	    <arg name="map_name" value="$(arg map_name)" />
-        <arg name="x_pos" value="1.424464"/>
-        <arg name="y_pos" value="-1.380"/>
+        <arg name="x_pos" value="0.034"/>
+        <arg name="y_pos" value="0.927"/>
         <arg name="yaw" value=" 0.0"/>
     </include>
     </group>
@@ -42,17 +42,18 @@
     <include file="$(find neuronbot2_nav)/launch/neuronbot2_nav.launch">
         <arg name="namespace" value=""/>
 	    <arg name="map_name" value="$(arg map_name)" />
-        <arg name="x_pos" value="0.24"/>
-        <arg name="y_pos" value="-0.25"/>
-        <arg name="yaw" value=" -0.785"/>
+        <arg name="x_pos" value="0.973"/>
+        <arg name="y_pos" value="-0.740"/>
+        <arg name="yaw" value=" 1.73"/>
     </include>
     <!-- <rosparam command="load" ns="" file="$(find neuronbot2_multibot)/params/multilayer_costmap.yaml" /> -->
     <include file="$(find neuronbot2_nav)/launch/neuronbot2_nav.launch">
         <arg name="namespace" value="nb2_1"/>
 	    <arg name="map_name" value="$(arg map_name)" />
-        <arg name="x_pos" value="1.47"/>
-        <arg name="y_pos" value="-1.50"/>
-        <arg name="yaw" value=" 2.355"/>
+        , 
+        <arg name="x_pos" value="0.925"/>
+        <arg name="y_pos" value="0.633"/>
+        <arg name="yaw" value=" -1.54"/>
     </include>
     </group>
 
